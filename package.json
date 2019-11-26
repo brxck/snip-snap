@@ -3,6 +3,7 @@
   "displayName": "snip-snap",
   "publisher": "brxck",
   "description": "Insert arbitrary snippets from the command palette.",
+  "repository": "https://github.com/brxck/snip-snap",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.40.0"
