@@ -4,7 +4,7 @@ export function activate(context: vscode.ExtensionContext) {
   const { commands, window } = vscode;
 
   let disposable = commands.registerCommand(
-    "extension.insertSnippet",
+    "extension.insertArbitrarySnippet",
     async () => {
       if (!window.activeTextEditor) return;
       const input = await window.showInputBox();

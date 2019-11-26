@@ -13,13 +13,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.insertSnippet"
+    "onCommand:extension.insertArbitrarySnippet"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.insertSnippet",
+        "command": "extension.insertArbitrarySnippet",
         "title": "Insert Arbitrary Snippet"
       }
     ]
