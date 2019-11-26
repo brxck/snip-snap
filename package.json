@@ -1,6 +1,6 @@
 {
-  "name": "shoutcast",
-  "displayName": "shoutcast",
+  "name": "snip-snap",
+  "displayName": "snip-snap",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.expandSnippet"
+    "onCommand:extension.insertSnippet"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.expandSnippet",
-        "title": "Expand Snippet"
+        "command": "extension.insertSnippet",
+        "title": "Insert Arbitrary Snippet"
       }
     ]
   },
