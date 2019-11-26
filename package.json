@@ -1,7 +1,8 @@
 {
   "name": "snip-snap",
   "displayName": "snip-snap",
-  "description": "",
+  "publisher": "brxck",
+  "description": "Insert arbitrary snippets from the command palette.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.40.0"
